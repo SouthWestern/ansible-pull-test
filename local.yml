@@ -25,7 +25,7 @@
      - vidalia
      - dopewars
      - tor-geoipdb
-     - unity-webapps-facebookmessager
+     - unity-webapps-facebookmessenger
      - unity-webapps-qml-examples
      
    - name: copy apt preference file
