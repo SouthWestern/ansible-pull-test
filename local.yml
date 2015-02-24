@@ -2,6 +2,9 @@
  - hosts: 127.0.0.1
    user: root
    tasks:
+   - name: Update Apt Cache
+     apt: update_cache=yes
+     
    - name: install icedtea-netx
      apt: name=icedtea-netx state=present
      
