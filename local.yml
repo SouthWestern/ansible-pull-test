@@ -2,6 +2,7 @@
  - hosts: 127.0.0.1
    gather_facts: no
    user: root
+   
    tasks:
    - name: install icedtea-netx
      apt: name=icedtea-netx state=present
