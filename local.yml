@@ -1,10 +1,10 @@
 ---
-- hosts: 127.0.0.1
-user: root
-tasks:
-- name: Install Software Packages
-  apt: name={{ item }} state=present
-  with_items:
+ - hosts: 127.0.0.1
+   user: root
+   tasks:
+   - name: Install Software Packages
+     apt: name={{ item }} state=present
+     with_items:
      - icedtea-netx
      - icedtea-plugin
      - libsm6:i386
