@@ -19,14 +19,14 @@
    - name: Remove Packages
      apt: name={{ item }} state=absent
      with_items:
-     -tor
-     -torchat
-     -torsocks
-     -vidalia
-     -dopewars
-     -tor-geoipdb
-     -unity-webapps-facebookmessager
-     -unity-webapps-qml-examples
+     - tor
+     - torchat
+     - torsocks
+     - vidalia
+     - dopewars
+     - tor-geoipdb
+     - unity-webapps-facebookmessager
+     - unity-webapps-qml-examples
      
    - name: copy apt preference file
      copy: src=/usr/share/swsd/test/preferences dest=/etc/apt owner=root group=root mode=0644
