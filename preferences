@@ -1,3 +1,3 @@
-Package: tor torchat torsocks vidalia dopewars tor-geoipdb unity-webapps-facebookmessenger unity-webapps-qml-examples chromium-browser
+Package: tor torchat torsocks vidalia dopewars tor-geoipdb unity-webapps-facebookmessenger unity-webapps-qml-examples chromium-browser midori qupzilla slimboat arora epiphany-browser
 Pin: release *
 Pin-Priority: -1
