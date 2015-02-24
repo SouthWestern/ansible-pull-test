@@ -2,10 +2,14 @@
  - hosts: 127.0.0.1
    user: root
    tasks:
-   - name: Install Software Packages
-     apt: name={{ item }} state=present
-     with_items:
-     - icedtea-netx
-     - icedtea-plugin
-     - libsm6:i386
-     - libglu1-mesa:i386
+   - name: install icedtea-netx
+     apt: name=icedtea-netx state=present
+     
+   - name: install icedtea plugin
+     apt: name=icedtea-plugin state=present
+     
+   - name: install libsm6:i386
+     apt: name=libsm6:i386 state=present
+     
+   - name: install libglu1-mesa:i386
+     apt: name=libglu1-mesa:i386 state=present
