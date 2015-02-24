@@ -1,3 +1,3 @@
-Package: tor torchat torsocks vidalia
+Package: tor torchat torsocks vidalia dopewars
 Pin: release *
 Pin-Priority: -1
