@@ -30,7 +30,7 @@
      - chromium-browser
      
    - name: copy apt preference file
-     copy: src=/usr/share/swsd/test/preferences dest=/etc/apt owner=root group=root mode=0644
+     copy: src=/usr/share/swsd/ansible/preferences dest=/etc/apt owner=root group=root mode=0644
      
    - name: copy Firefox preference file
-     copy: src=/usr/share/swsd/test/syspref.js dest=/etc/firefox owner=root group=root mode=0644
+     copy: src=/usr/share/swsd/ansible/syspref.js dest=/etc/firefox owner=root group=root mode=0644
